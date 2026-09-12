@@ -6,8 +6,64 @@
   "institution": "אוניברסיטת תל אביב",
   "total_credits_required": 120,
   "frameworks": [
-    {"code": "F1", "name": "חובות חוג", "required_credits": 60, "sort_order": 1},
-    {"code": "F2", "name": "בחירה", "required_credits": 60, "sort_order": 2}
+    { "code": "F1", "name": "חובות חוג - עיוני", "required_credits": 40, "sort_order": 1 },
+    { "code": "F2", "name": "חובות חוג - מעשי", "required_credits": 50, "sort_order": 2 },
+    { "code": "F3", "name": "קורסי בחירה וסמינרים", "required_credits": 30, "sort_order": 3 }
   ],
-  "courses": []
+  "courses": [
+    {
+      "course_name": "תולדות הקולנוע א'",
+      "course_number": "0851-1001",
+      "framework_code": "F1",
+      "credits": 4,
+      "grade": null,
+      "is_pass_fail": false,
+      "pass_fail_status": null
+    },
+    {
+      "course_name": "תולדות הקולנוע ב'",
+      "course_number": "0851-1002",
+      "framework_code": "F1",
+      "credits": 4,
+      "grade": null,
+      "is_pass_fail": false,
+      "pass_fail_status": null
+    },
+    {
+      "course_name": "מבוא לשפת הקולנוע",
+      "course_number": "0851-1005",
+      "framework_code": "F1",
+      "credits": 2,
+      "grade": null,
+      "is_pass_fail": false,
+      "pass_fail_status": null
+    },
+    {
+      "course_name": "יסודות הבימוי והתסריט",
+      "course_number": "0851-1010",
+      "framework_code": "F2",
+      "credits": 4,
+      "grade": null,
+      "is_pass_fail": false,
+      "pass_fail_status": null
+    },
+    {
+      "course_name": "מבוא לצילום ותאורה",
+      "course_number": "0851-1012",
+      "framework_code": "F2",
+      "credits": 3,
+      "grade": null,
+      "is_pass_fail": false,
+      "pass_fail_status": null
+    },
+    {
+      "course_name": "יסודות העריכה",
+      "course_number": "0851-1015",
+      "framework_code": "F2",
+      "credits": 3,
+      "grade": null,
+      "is_pass_fail": false,
+      "pass_fail_status": null
+    }
+  ]
 }
