@@ -6,64 +6,48 @@
   "institution": "אוניברסיטת תל אביב",
   "total_credits_required": 120,
   "frameworks": [
-    { "code": "F1", "name": "חובות חוג - עיוני", "required_credits": 40, "sort_order": 1 },
-    { "code": "F2", "name": "חובות חוג - מעשי", "required_credits": 50, "sort_order": 2 },
-    { "code": "F3", "name": "קורסי בחירה וסמינרים", "required_credits": 30, "sort_order": 3 }
+    { "code": "F1", "name": "לימודי תשתית ועיוני חובה", "required_credits": 42, "sort_order": 1 },
+    { "code": "F2", "name": "סדנאות יסוד ומעשי חובה", "required_credits": 46, "sort_order": 2 },
+    { "code": "F3", "name": "סמינרים וקורסי בחירה", "required_credits": 32, "sort_order": 3 }
   ],
   "courses": [
-    {
-      "course_name": "תולדות הקולנוע א'",
-      "course_number": "0851-1001",
-      "framework_code": "F1",
-      "credits": 4,
-      "grade": null,
-      "is_pass_fail": false,
-      "pass_fail_status": null
-    },
-    {
-      "course_name": "תולדות הקולנוע ב'",
-      "course_number": "0851-1002",
-      "framework_code": "F1",
-      "credits": 4,
-      "grade": null,
-      "is_pass_fail": false,
-      "pass_fail_status": null
-    },
-    {
-      "course_name": "מבוא לשפת הקולנוע",
-      "course_number": "0851-1005",
-      "framework_code": "F1",
-      "credits": 2,
-      "grade": null,
-      "is_pass_fail": false,
-      "pass_fail_status": null
-    },
-    {
-      "course_name": "יסודות הבימוי והתסריט",
-      "course_number": "0851-1010",
-      "framework_code": "F2",
-      "credits": 4,
-      "grade": null,
-      "is_pass_fail": false,
-      "pass_fail_status": null
-    },
-    {
-      "course_name": "מבוא לצילום ותאורה",
-      "course_number": "0851-1012",
-      "framework_code": "F2",
-      "credits": 3,
-      "grade": null,
-      "is_pass_fail": false,
-      "pass_fail_status": null
-    },
-    {
-      "course_name": "יסודות העריכה",
-      "course_number": "0851-1015",
-      "framework_code": "F2",
-      "credits": 3,
-      "grade": null,
-      "is_pass_fail": false,
-      "pass_fail_status": null
-    }
+    { "course_name": "תולדות הקולנוע א': מראשית הראינוע ועד הקולנוע הקלאסי", "course_number": "0851-1001", "framework_code": "F1", "credits": 4, "grade": null, "is_pass_fail": false, "pass_fail_status": null },
+    { "course_name": "תולדות הקולנוע ב': מודרניזם וגל חדש", "course_number": "0851-1002", "framework_code": "F1", "credits": 4, "grade": null, "is_pass_fail": false, "pass_fail_status": null },
+    { "course_name": "מבוא לשפת הקולנוע ותחביר ויזואלי", "course_number": "0851-1005", "framework_code": "F1", "credits": 2, "grade": null, "is_pass_fail": false, "pass_fail_status": null },
+    { "course_name": "תאוריות קולנועיות קלאסיות", "course_number": "0851-2001", "framework_code": "F1", "credits": 4, "grade": null, "is_pass_fail": false, "pass_fail_status": null },
+    { "course_name": "תאוריות קולנועיות בנות זמננו", "course_number": "0851-2002", "framework_code": "F1", "credits": 4, "grade": null, "is_pass_fail": false, "pass_fail_status": null },
+    { "course_name": "מבוא לתולדות הטלוויזיה והמדיום הטלוויזיוני", "course_number": "0851-1100", "framework_code": "F1", "credits": 4, "grade": null, "is_pass_fail": false, "pass_fail_status": null },
+    { "course_name": "תולדות הקולנוע הישראלי", "course_number": "0851-2150", "framework_code": "F1", "credits": 4, "grade": null, "is_pass_fail": false, "pass_fail_status": null },
+    { "course_name": "ניתוח טקסטים קולנועיים וטלוויזיוניים", "course_number": "0851-1020", "framework_code": "F1", "credits": 4, "grade": null, "is_pass_fail": false, "pass_fail_status": null },
+    { "course_name": "סוגיות באסתטיקה של הקולנוע", "course_number": "0851-3005", "framework_code": "F1", "credits": 4, "grade": null, "is_pass_fail": false, "pass_fail_status": null },
+    { "course_name": "הקולנוע התיעודי: היסטוריה ואתיקה", "course_number": "0851-2200", "framework_code": "F1", "credits": 4, "grade": null, "is_pass_fail": false, "pass_fail_status": null },
+    { "course_name": "אוריינות אקדמית וכתיבה מחקרית", "course_number": "0851-1000", "framework_code": "F1", "credits": 2, "grade": null, "is_pass_fail": true, "pass_fail_status": null },
+
+    { "course_name": "יסודות התסריט א'", "course_number": "0851-1011", "framework_code": "F2", "credits": 3, "grade": null, "is_pass_fail": false, "pass_fail_status": null },
+    { "course_name": "יסודות התסריט ב'", "course_number": "0851-1012", "framework_code": "F2", "credits": 3, "grade": null, "is_pass_fail": false, "pass_fail_status": null },
+    { "course_name": "סדנת בימוי עלילתי יסוד", "course_number": "0851-1013", "framework_code": "F2", "credits": 4, "grade": null, "is_pass_fail": false, "pass_fail_status": null },
+    { "course_name": "סדנת צילום ותאורה למתחילים", "course_number": "0851-1014", "framework_code": "F2", "credits": 3, "grade": null, "is_pass_fail": false, "pass_fail_status": null },
+    { "course_name": "מבוא לפסקול והקלטת קול בשטח", "course_number": "0851-1016", "framework_code": "F2", "credits": 2, "grade": null, "is_pass_fail": false, "pass_fail_status": null },
+    { "course_name": "עריכת וידאו דיגיטלית - תוכנה וקצב", "course_number": "0851-1017", "framework_code": "F2", "credits": 3, "grade": null, "is_pass_fail": false, "pass_fail_status": null },
+    { "course_name": "סדנת בימוי מתקדם ועבודה עם שחקנים", "course_number": "0851-2010", "framework_code": "F2", "credits": 4, "grade": null, "is_pass_fail": false, "pass_fail_status": null },
+    { "course_name": "סדנת צילום מתקדם ותנועות מצלמה", "course_number": "0851-2015", "framework_code": "F2", "credits": 3, "grade": null, "is_pass_fail": false, "pass_fail_status": null },
+    { "course_name": "עיצוב פסקול ומיקס באולפן", "course_number": "0851-2020", "framework_code": "F2", "credits": 3, "grade": null, "is_pass_fail": false, "pass_fail_status": null },
+    { "course_name": "סדנת יצירה תיעודית - פיתוח והפקה", "course_number": "0851-2030", "framework_code": "F2", "credits": 4, "grade": null, "is_pass_fail": false, "pass_fail_status": null },
+    { "course_name": "עריכה מתקדמת ומבנה סיפורי", "course_number": "0851-2040", "framework_code": "F2", "credits": 3, "grade": null, "is_pass_fail": false, "pass_fail_status": null },
+    { "course_name": "הפקת סרט גמר - שלב פיתוח ופרה-פרודקשן", "course_number": "0851-3100", "framework_code": "F2", "credits": 4, "grade": null, "is_pass_fail": false, "pass_fail_status": null },
+    { "course_name": "הפקת סרט גמר - צילומים ופוסט-פרודקשן", "course_number": "0851-3101", "framework_code": "F2", "credits": 4, "grade": null, "is_pass_fail": false, "pass_fail_status": null },
+    { "course_name": "בטיחות בהפקה ונהלי צילום", "course_number": "0851-0001", "framework_code": "F2", "credits": 1, "grade": null, "is_pass_fail": true, "pass_fail_status": null },
+    { "course_name": "עזרה ראשונה באתרי צילום", "course_number": "0851-0002", "framework_code": "F2", "credits": 1, "grade": null, "is_pass_fail": true, "pass_fail_status": null },
+
+    { "course_name": "סמינר מחקר: קולנוע ומגדר", "course_number": "0851-3501", "framework_code": "F3", "credits": 4, "grade": null, "is_pass_fail": false, "pass_fail_status": null },
+    { "course_name": "סמינר מחקר: הקולנוע של חורחה לואיס בורחס", "course_number": "0851-3502", "framework_code": "F3", "credits": 4, "grade": null, "is_pass_fail": false, "pass_fail_status": null },
+    { "course_name": "סמינר יצירתי: כתיבת פיצ'ר באורך מלא", "course_number": "0851-3510", "framework_code": "F3", "credits": 4, "grade": null, "is_pass_fail": false, "pass_fail_status": null },
+    { "course_name": "סדנת אפקטים ויזואליים ופוסט מתקדם (VFX)", "course_number": "0851-3200", "framework_code": "F3", "credits": 3, "grade": null, "is_pass_fail": false, "pass_fail_status": null },
+    { "course_name": "עיצוב אמנותי לקולנוע וטלוויזיה (ארט דיירקשן)", "course_number": "0851-3210", "framework_code": "F3", "credits": 3, "grade": null, "is_pass_fail": false, "pass_fail_status": null },
+    { "course_name": "קולנוע עצמאי והפצה בינלאומית", "course_number": "0851-3220", "framework_code": "F3", "credits": 2, "grade": null, "is_pass_fail": false, "pass_fail_status": null },
+    { "course_name": "פיתוח סדרות לטלוויזיה ופלטפורמות סטרימינג", "course_number": "0851-3230", "framework_code": "F3", "credits": 3, "grade": null, "is_pass_fail": false, "pass_fail_status": null },
+    { "course_name": "סדנת גרפיקה ותיקוני צבע (Color Grading)", "course_number": "0851-3240", "framework_code": "F3", "credits": 3, "grade": null, "is_pass_fail": false, "pass_fail_status": null },
+    { "course_name": "הקולנוע האסייתי המודרני", "course_number": "0851-3310", "framework_code": "F3", "credits": 2, "grade": null, "is_pass_fail": false, "pass_fail_status": null },
+    { "course_name": "קולנוע ניסיוני ווידאו-ארט", "course_number": "0851-3320", "framework_code": "F3", "credits": 4, "grade": null, "is_pass_fail": false, "pass_fail_status": null }
   ]
 }
