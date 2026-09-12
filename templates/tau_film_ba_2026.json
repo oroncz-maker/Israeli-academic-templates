@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "exportedAt": "2026-09-12T00:00:00.000Z",
+  "degree_type": "תואר ראשון",
+  "degree_name": "קולנוע וטלוויזיה",
+  "institution": "אוניברסיטת תל אביב",
+  "total_credits_required": 120,
+  "frameworks": [
+    {"code": "F1", "name": "חובות חוג", "required_credits": 60, "sort_order": 1},
+    {"code": "F2", "name": "בחירה", "required_credits": 60, "sort_order": 2}
+  ],
+  "courses": []
+}
